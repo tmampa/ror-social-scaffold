@@ -8,4 +8,11 @@ class FriendshipsController < ApplicationController
       redirect_to users_path, alert: 'You friend request was not sent.'
     end
   end
+
+  def confirm_friend
+    update_attributes(confirmed: true)
+    Friendship.create!(friend_id: user_id,
+                       user_id: friend_id,
+                       confirmed: true)
+  end
 end
