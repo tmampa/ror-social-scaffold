@@ -1,6 +1,11 @@
 class Friendship < ApplicationRecord
   belongs_to :user
   belongs_to :friend, class_name: 'User'
-  has_many :confirmed_friendships, -> { where confirmed: true }, class_name: 'Friendship'
-  has_many :friends, through: :confirmed_friendships
+
+  def confirm_friend
+    update_attributes(confirmed: true)
+    Friendship.create!(friend_id: user_id,
+                       user_id: friend_id,
+                       confirmed: true)
+  end
 end
