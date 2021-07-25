@@ -48,11 +48,11 @@ group :development, :test do
 
   group :development, :test do
     gem 'sqlite3'
-   end
-   
-   group :production do
-     gem 'pg'
-   end
+  end
+
+  group :production do
+    gem 'pg'
+  end
 
   gem 'capybara'
 
