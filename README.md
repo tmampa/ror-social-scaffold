@@ -6,11 +6,12 @@
 
 - Ruby v2.7.0
 - Ruby on Rails v5.2.4
+- SCSS & CSS
+- Tailwind
 
 ## Live Demo
 
-TBA
-
+https://agile-beach-30716.herokuapp.com
 
 ## Getting Started
 
@@ -71,7 +72,11 @@ TBA
 
 ## Authors
 
-TBA
+👤 **Tshephang Mampa**
+
+- GitHub: [@tmampa](https://github.com/tmampa)
+- Twitter: [@tshephangm_](https://twitter.com/tshephangm_)
+- LinkedIn: [Tshephang Mampa](https://linkedin.com/in/tshephangmampa)
 
 ## 🤝 Contributing
 
