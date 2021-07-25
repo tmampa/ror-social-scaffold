@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-https://agile-beach-30716.herokuapp.com/users/sign_in
+https://agile-beach-30716.herokuapp.com
 
 ## Getting Started
 
